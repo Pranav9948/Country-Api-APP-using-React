@@ -1,0 +1,168 @@
+.cardComponent {
+  width: 528px;
+  height: 130px;
+  background-color: lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: #3e3e3e;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.card_img img {
+  width: 170px;
+  height: 140px;
+  padding: 30px;
+  
+}
+
+@media (max-width: 480px) {
+  .card_img img {
+    width: 120px;
+    height: 80px;
+    padding: 15px;
+    margin: 20px;
+  }
+}
+
+
+@media (max-width: 2000px) {
+  .cardComponent {
+    width: 368px;
+    height: 80px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #3e3e3e;
+    border-width: 2px;
+    border-style: solid;
+  }
+}
+@media (min-width: 475px) {
+  .cardComponent {
+    width: 350px;
+    height: 80px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #3e3e3e;
+    border-width: 2px;
+    border-style: solid;
+  }
+}
+@media (max-width: 450px) {
+    .cardComponent {
+      width: 300px;
+      height: 100px;
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-color: #3e3e3e;
+      border-width: 2px;
+      border-style: solid;
+    }
+
+    .card_img img {
+      width: 100px;
+      height: 70px;
+      padding: 15px;
+      
+    }
+
+    .cardComponent h3{
+
+      font-size: 20px;
+      
+    }
+
+    .cardComponent p{
+
+      font-size: 15px!important;
+      padding-bottom:10px!important;
+
+    }
+  }
+
+.p-2 {
+  padding: 5px;
+}
+
+.mt-2 {
+  margin-top: 100px;
+}
+
+
+
+@media (max-width: 360px) {
+  .cardComponent {
+    width: 250px;
+    height: 70px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #3e3e3e;
+    border-width: 2px;
+    border-style: solid;
+  }
+
+  .card_img img {
+    width: 100px;
+    height: 70px;
+    padding: 15px;
+    
+  }
+
+  .cardComponent h3{
+
+    font-size: 14px;
+    
+  }
+
+  .cardComponent p{
+
+    font-size: 10px!important;
+    padding-bottom:6px!important;
+
+  }
+}
+
+
+@media (max-width: 300px) {
+  .cardComponent {
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #3e3e3e;
+    border-width: 2px;
+    border-style: solid;
+  }
+
+  .card_img img {
+    width: 80px;
+    height: 60px;
+    padding: 15px;
+    
+  }
+
+  .cardComponent h3{
+
+    font-size: 10px;
+    margin-top: 10px;
+    
+  }
+
+  .cardComponent p{
+
+    font-size: 7px!important;
+    padding-bottom:6px!important;
+
+  }
+}

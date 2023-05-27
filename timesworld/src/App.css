@@ -1,0 +1,162 @@
+body {
+  font-family: "Noto Sans";
+}
+.my-container {
+  width: 80%;
+  margin: auto;
+  height: 100vh;
+}
+
+.loginView {
+  margin-top: 20%;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+.loginCard {
+  width: 280px;
+  height: 1000px;
+}
+
+::placeholder {
+  width: 145px;
+  height: 23px;
+  padding-left: 16px;
+
+  border-color: rgba(0, 0, 0, 0);
+  border-width: 1px;
+  border-style: solid;
+
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  color: #3e3e3e;
+}
+.p-1 {
+  padding: 2px;
+}
+
+.py-1 {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.py-2 {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.py-5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.pl-5 {
+  padding-left: 5px;
+}
+.pt-15 {
+  padding-top: 15px;
+}
+
+.create {
+  color: #587fff;
+}
+.inputClass {
+  width: 280px;
+  height: 48px;
+
+  border-color: #3e3e3e;
+  border-width: 2px;
+  border-style: solid;
+
+  background: #ffffff;
+}
+
+.checkbox {
+  width: 32px;
+  height: 32px;
+
+  border-color: #000000;
+  border-width: 2px;
+  border-style: solid;
+
+  background: #f2f2f2;
+}
+
+.checkboxText {
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  color: #3d3d3d;
+}
+.items-center {
+  display: flex;
+  align-items: center;
+}
+.btnClass {
+  width: 280px;
+  height: 48px;
+
+  background: #3c3c3c;
+}
+.btnText {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.line {
+  width: 70px;
+  border: none;
+  background: #3c3c3c;
+  height: 1px;
+}
+
+.lineFlex {
+  display: flex;
+  flex-direction: row;
+}
+
+.imgMap {
+  border-radius: 50%;
+  border: 2px solid #3c3c3c;
+  padding: 5px;
+}
+.space-between {
+  justify-content: space-around;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.lady {
+  margin-top: 15px;
+}
+
+@media (max-width: 600px) {
+  .lady {
+    display: none;
+  }
+}
+.countries {
+  margin-left: 700px;
+}
+
+
+
+
+.navbars {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 30px;
+}
+
+
+Link {
+  text-decoration: none;
+}
+
+.link_tags {
+  text-decoration: none;
+  margin-left: 100px;
+}
